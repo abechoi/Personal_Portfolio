@@ -1,0 +1,116 @@
+/*@import url(http://www.fontbros.com/families/futura?src=GoogleFonts);
+*/
+html, body{
+	font-family: 'futura', 'Helvetica', sans-serif;
+	background-color: #000;
+  	background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+nav{
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 75px;
+	background-color: #BE3143;
+}
+
+.links{
+	margin-left: 1000px;
+	margin-top: 25px;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+#profile-link{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.project-link{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#projects{
+	margin-top: 75px;
+	padding: 25px;
+	width: 100vh;
+	height: 100vh;
+}
+
+.welcome-header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -300px;
+	width: 600px;
+	height: 300px;
+}
+
+h1{
+	color: white;
+	font-size: 64px;
+	text-align: center;
+}
+
+p{
+	margin-top: -50px;
+	color: #BE3143;
+	font-size: 42px;
+	text-align: center;
+}
+
+.project-content{
+	position: relative;
+	top: 5%;
+	left: 50%;
+	margin-bottom: 200px;
+}
+
+.container{
+	margin-top: -20px;
+	font-size: 40px;
+	height: 400px;
+	width: 600px;
+	background: #BE3143;
+	border-width: 4px;
+	border-color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+.project-tile{
+	border-width: 2px;
+	background-color: #222325;
+}
+
+
+
+
